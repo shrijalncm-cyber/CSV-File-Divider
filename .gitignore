@@ -1,5 +1,73 @@
-/build
-/dist
-/sample_data.csv
-/test_output
-/test_processing.py
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+dist_minimal/
+dist_nuitka/
+dist_csv/
+dist_nuitka_csv/
+build/
+build_minimal/
+build_csv/
+*.spec
+.Python
+env/
+venv/
+ENV/
+*.pyc
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Nuitka
+*.build/
+*.dist/
+*.onefile-build/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Testing
+test_output/
+output/
+split_files/
+*_converted.csv
+
+# Logs
+*.log
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Temporary files
+*.tmp
+*.bak
+*.cache
+
+# Build artifacts
+*.exe
+*.pyd
+*.dll
+*.dylib
+
+# Sample/test data (keep template files)
+sample_*.csv
+test_*.csv
+AAFN*.csv
+*_FINAL_CSV.csv
+
+# Unified converter copy
+csv_converter_unified.py
+
+*.csv
