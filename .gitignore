@@ -71,3 +71,4 @@ AAFN*.csv
 csv_converter_unified.py
 
 *.csv
+nuitka-crash-report.xml
